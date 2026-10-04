@@ -202,8 +202,8 @@ header {
 }
 
 .container {
-    width: 91%;
-    max-width: 680px;
+    width: 90%;
+    max-width: 700px;
     margin: 10px;
     display: flex;
     flex-direction: column;
@@ -331,4 +331,62 @@ a {
 
     text-align: left; 
     padding-left: 15px; 
+}
+
+/* =========================
+   MOBILE RESPONSIVE
+========================= */
+
+@media (max-width: 600px) {
+
+    header {
+        width: 90%;
+        height: 50px;
+        padding: 8px;
+    }
+
+    .header-logo img {
+        width: 45px;
+        height: 45px;
+    }
+
+    .container {
+        width: 100%;
+    }
+
+    .catalog {
+        width: 92%;
+        height: 240px;
+        margin: 15px auto;
+        border-radius: 15px;
+    }
+
+    .catalog-info {
+        left: 18px;
+        bottom: 30px;
+    }
+
+    .catalog-info h2 {
+        font-size: 18px;
+    }
+
+    .catalog-info p {
+        font-size: 10px;
+    }
+
+    .catalog-btn {
+        width: 32px;
+        height: 32px;
+        font-size: 22px;
+    }
+
+    .tile {
+        width: 90%;
+        max-width: 600px;
+        box-sizing: border-box;
+    }
+
+    .footer {
+        width: 90%;
+    }
 }
